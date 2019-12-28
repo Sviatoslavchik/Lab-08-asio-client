@@ -10,6 +10,7 @@ io_service service;
 
 struct talk_to_svr {
 
+
 private:
 	ip::tcp::socket sock_;
 	enum { max_msg = 1024 };
